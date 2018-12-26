@@ -1,7 +1,7 @@
 $queryUrl = 'https://prural.bitrix24.ru/rest/152/###/crm.lead.add.json';
 					$queryData = http_build_query(array(
 					'fields' => array(
-					"TITLE" => $leadData['PHONE_WORK']." Заявка с  сайта promo74",
+					"TITLE" => $leadData['PHONE_WORK']." Заявка с  сайта",
 					"NAME" => $leadData['NAME'],
 					"STATUS_ID" => "NEW",
 					"OPENED" => "Y",
